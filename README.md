@@ -40,7 +40,9 @@ npm run test:client
 npm run test:server
 
 # Add dependencies
-npx lerna add --scope=<@packages/core OR @packages/client OR @packages/server> <package you want to install>
+npx lerna add \
+  --scope=<@packages/core OR @packages/client OR @packages/server> \
+  <package you want to install>
 ```
 
 ### Reference
