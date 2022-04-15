@@ -30,5 +30,5 @@ Typscripts, ExpressJs, winston
 
 ```bash
 # Sample api
-curl -v -b "./cookie.txt" localhost:8082/server/test
+curl -v localhost:8082/server/test
 ```

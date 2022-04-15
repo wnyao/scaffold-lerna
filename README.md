@@ -1,6 +1,6 @@
 # scaffold-lerna
 
-Opinionated sample of lerna monorepo setup. Open to configure to your need.
+Opinionated lerna monorepo setup. Open to configure to your need.
 
 ### Structure
 
@@ -38,4 +38,11 @@ npm run test:client
 
 # test server
 npm run test:server
+
+# Add dependencies
+npx lerna add --scope=<@packages/core OR @packages/client OR @packages/server> <package you want to install>
 ```
+
+### Reference
+
+- [Lerna](https://lerna.js.org/)
