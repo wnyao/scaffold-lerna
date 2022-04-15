@@ -1,0 +1,25 @@
+{
+  "name": "project-random",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "start": "lerna run start",
+    "clean": "lerna clean --yes",
+    "bootstrap": "lerna bootstrap --hoist",
+    "postinstall": "npm run clean && npm run bootstrap",
+    "dev:server": "lerna exec --scope=@packages/server -- npm run dev",
+    "dev-test:server": "lerna exec --scope=@packages/server -- npm run test:watch",
+    "test:server": "lerna exec --scope=@packages/server -- npm run test",
+    "dev:client": "lerna exec --scope=@packages/client -- npm run dev",
+    "dev-test:client": "lerna exec --scope=@packages/client -- npm run test:watch",
+    "test:client": "lerna exec --scope=@packages/client -- npm run test"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-wnyao": "https://github.com/wnyao/eslint-config-wnyao.git",
+    "husky": "~7.0.4",
+    "lerna": "^4.0.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@packages/client",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "analyze": "webpack --config webpack/webpack.config.analyze.js --progress profile --color",
+    "dev": "webpack serve --config webpack/webpack.config.dev.js --progress profile --color",
+    "prod": "webpack --config webpack/webpack.config.prod.js --progress profile",
+    "test": "jest --no-cache --ci",
+    "test:watch": "jest --coverage --no-cache --watchAll",
+    "lint:eslint": "eslint --ext .ts --ext .tsx --max-warnings 0 src",
+    "lint:type": "tsc --noEmit --skipLibCheck",
+    "lint:test": "npm-run-all --parallel lint:eslint lint:type",
+    "prettier": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "@packages/core": "^0.0.0",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

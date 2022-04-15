@@ -1,0 +1,21 @@
+# OSX
+.DS_Store
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.vscode
+.idea
+
+# build
+dist
+client/dist
+server/dist
+
+# jest
+packages/desktop/coverage
+packages/server/coverage
+
+# log
+packages/server/logs

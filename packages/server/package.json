@@ -1,0 +1,35 @@
+{
+  "name": "@packages/server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "prod": "tsc -p",
+    "test": "jest --no-cache --ci",
+    "test:watch": "jest --coverage --no-cache --watchAll"
+  },
+  "devDependencies": {
+    "@types/bluebird": "~3.5.36",
+    "@types/body-parser": "~1.19.2",
+    "@types/cookie-parser": "~1.4.2",
+    "@types/cors": "~2.8.12",
+    "@types/express": "~4.17.13",
+    "@types/node": "~17.0.23",
+    "@types/response-time": "~2.3.5",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@packages/core": "^0.0.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "~4.17.3",
+    "http-errors": "^2.0.0",
+    "moment": "~2.29.1",
+    "node-statsd": "^0.1.1",
+    "response-time": "^2.3.2",
+    "ts-node": "~10.7.0",
+    "winston": "~3.6.0"
+  }
+}
