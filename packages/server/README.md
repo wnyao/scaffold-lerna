@@ -1,6 +1,6 @@
 # @packages/server
 
-Opinionated restful api server setup, Feel free reconfigure to your need.
+Opinionated restful api server setup, Feel free to reconfigure to your need.
 
 ### Structure
 ```bash

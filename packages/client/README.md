@@ -1,6 +1,6 @@
 # @packages/client
 
-Opinionated react application setup, Feel free reconfigure to your need.
+Opinionated react application setup, Feel free to reconfigure to your need.
 
 ### Structure
 ```bash

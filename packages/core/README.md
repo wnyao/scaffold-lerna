@@ -1,7 +1,6 @@
 # @packages/core
 
-Opinionated shared setup, Anything underneath this directory can be shared across all packages. Usually we put shared code or functions in this place.
-Feel free reconfigure to your need.
+Opinionated shared setup, Anything underneath this directory can be shared across all packages. Usually we put shared code or functions in this place. Feel free to reconfigure to your need.
 
 ### Structure
 ```bash
