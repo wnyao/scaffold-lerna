@@ -18,7 +18,7 @@ packages
 ### Support
 
  ```
- React, React Router, Styled Components, TypeScript, i18n, ExpressJs, Axios, webpack, jest
+ React, React Router, Styled Components, TypeScript, i18n, Prettier, Husky, ExpressJs, Axios, webpack, Jest
  ```
 
 ### Installation
@@ -44,6 +44,10 @@ npx lerna add \
   --scope=<@packages/core OR @packages/client OR @packages/server> \
   <package you want to install>
 ```
+
+### Contributing
+
+Any improvements to the base template are welcome. No strict contributing guidelines. Simply fork the repo and open a pull request with description.
 
 ### Reference
 
