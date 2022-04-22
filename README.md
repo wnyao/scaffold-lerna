@@ -1,5 +1,7 @@
 # scaffold-lerna
 
+![Scafffold Lerna](https://github.com/wnyao/assets/blob/main/scafffold-lerna.png)
+
 Opinionated lerna monorepo setup. Open to configure to your need.
 
 ### Structure
