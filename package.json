@@ -7,9 +7,11 @@
     "clean": "lerna clean --yes",
     "bootstrap": "lerna bootstrap --hoist",
     "postinstall": "npm run clean && npm run bootstrap",
+    "prod:server": "lerna exec --scope=@packages/server -- npm run prod",
     "dev:server": "lerna exec --scope=@packages/server -- npm run dev",
     "dev-test:server": "lerna exec --scope=@packages/server -- npm run test:watch",
     "test:server": "lerna exec --scope=@packages/server -- npm run test",
+    "prod:client": "lerna exec --scope=@packages/client -- npm run prod",
     "dev:client": "lerna exec --scope=@packages/client -- npm run dev",
     "dev-test:client": "lerna exec --scope=@packages/client -- npm run test:watch",
     "test:client": "lerna exec --scope=@packages/client -- npm run test"

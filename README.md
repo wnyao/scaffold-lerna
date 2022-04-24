@@ -29,10 +29,10 @@ packages
 # install
 npm install && npm run postinstall
 
-# start client
+# dev client
 npm run dev:client
 
-# start server
+# dev server
 npm run dev:server
 
 # test client
@@ -40,6 +40,12 @@ npm run test:client
 
 # test server
 npm run test:server
+
+# prod client
+npm run prod:client
+
+# prod server
+npm run prod:server
 
 # Add dependencies
 npx lerna add \

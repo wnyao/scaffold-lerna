@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon --exec ts-node src/index.ts",
-    "prod": "tsc -p",
+    "prod": "ts-node src/index.ts",
     "test": "jest --no-cache --ci",
     "test:watch": "jest --coverage --no-cache --watchAll"
   },
