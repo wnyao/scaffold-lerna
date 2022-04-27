@@ -25,9 +25,9 @@
   },
   "exclude": [
     "node_modules",
-    "webpack.config.analyze.js",
-    "webpack.config.base.js",
-    "webpack.config.dev.js",
-    "webpack.config.prod.js"
+    "./scripts/webpack.config.analyze.js",
+    "./scripts/webpack.config.base.js",
+    "./scripts/webpack.config.dev.js",
+    "./scripts/webpack.config.prod.js"
   ]
 }
