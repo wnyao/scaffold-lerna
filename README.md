@@ -7,10 +7,14 @@ Opinionated lerna monorepo setup. Open to configure to your need.
 ### Structure
 
 ```
-packages
-├── client
-├── core
-└── server
+.
+├── .env # Global environment variables
+├── lerna.json # Lerna config
+├── package.json
+└── packages
+    ├── client
+    ├── core
+    └── server
 ```
 
 - [@packages/core](./packages/core)

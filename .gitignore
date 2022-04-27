@@ -1,7 +1,7 @@
 # OSX
 .DS_Store
 
-# node.js
+# nodejs
 node_modules/
 npm-debug.log
 yarn-error.log
@@ -9,12 +9,10 @@ yarn-error.log
 .idea
 
 # build
-dist
-client/dist
-server/dist
+packages/client/client
 
 # jest
-packages/desktop/coverage
+packages/client/coverage
 packages/server/coverage
 
 # log

@@ -5,7 +5,7 @@ import { ConsoleTransportInstance, FileTransportInstance } from 'winston/lib/win
 type Params = (string | object)[];
 
 const { combine, timestamp, label, printf, colorize, json } = format;
-const { APP_PATH, NODE_ENV } = process.env;
+const { SERVER_PATH, NODE_ENV } = process.env;
 const isDev = NODE_ENV === 'development';
 
 const formatLog = printf(({ timestamp, label, level, message }) => {
@@ -25,7 +25,7 @@ const configs = {
     maxsize: 10485760, // 10mb
     maxFiles: 10,
     colorize: false,
-    format: combine(timestamp(), label({ label: APP_PATH }), json())
+    format: combine(timestamp(), label({ label: SERVER_PATH }), json())
   },
   text: {
     level: 'debug',
@@ -34,13 +34,13 @@ const configs = {
     maxsize: 10485760,
     maxFiles: 10,
     colorize: false,
-    format: combine(timestamp(), label({ label: APP_PATH }), formatLog)
+    format: combine(timestamp(), label({ label: SERVER_PATH }), formatLog)
   },
   console: {
     level: 'debug',
     handleExceptions: true,
     colorize: true,
-    format: combine(colorize(), label({ label: APP_PATH }), timestamp(), formatLog)
+    format: combine(colorize(), label({ label: SERVER_PATH }), timestamp(), formatLog)
   }
 };
 

@@ -1,5 +1,5 @@
-const { APP_PATH } = process.env;
+const { SERVER_PATH } = process.env;
 
-export const TEST = `/${APP_PATH}/test`;
+export const TEST = `/${SERVER_PATH}/test`;
 
 export const PUBLIC_ROUTES = [TEST];

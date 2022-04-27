@@ -7,9 +7,9 @@ import responseTime from 'response-time';
 import { Cookie } from '../cookie';
 import { Logger } from '../logger';
 
-const { NODE_ENV, APP_PORT = 8082 } = process.env;
+const { NODE_ENV, SERVER_PORT = 8082 } = process.env;
 const isDevelopment = NODE_ENV === 'development';
-const whiteList = [`http://localhost:${APP_PORT}`];
+const whiteList = [`http://localhost:${SERVER_PORT}`];
 
 export class Server {
   public static configure(app: Application) {
