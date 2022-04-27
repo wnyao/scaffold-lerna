@@ -2,11 +2,11 @@
 
 ![Scafffold Lerna](https://github.com/wnyao/assets/blob/main/scafffold-lerna.png)
 
-Opinionated lerna monorepo setup. Open to configure to your need.
+Opinionated lerna monorepo setup, get you up and running quick. Open to configure to your needs.
 
 ### Structure
 
-```
+```bash
 .
 ├── .env # Global environment variables
 ├── lerna.json # Lerna config
