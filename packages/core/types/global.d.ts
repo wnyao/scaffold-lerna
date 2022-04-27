@@ -2,7 +2,7 @@ declare const i18n: import('i18next').i18n;
 
 declare const BUILD_NUMBER: string;
 declare const NODE_ENV: string;
-declare const APP_ENV: string;
+declare const APP_PATH: string;
 declare module '*.svg';
 declare module '*.png';
 

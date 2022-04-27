@@ -1,1 +1,1 @@
-export const HOME = `/${APP_ENV}/home`;
+export const HOME = `/${APP_PATH}/home`;

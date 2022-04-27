@@ -12,7 +12,7 @@ export enum LANGUAGE {
 
 export const changeLanguage = async (lang: LANGUAGE) => {
   try {
-    const { data } = await axios.get(`/${APP_ENV}/locales/${lang}/resource.json`);
+    const { data } = await axios.get(`/${APP_PATH}/locales/${lang}/resource.json`);
 
     initMomentLocal(lang);
     i18n.addResourceBundle(lang, 'resource', data);

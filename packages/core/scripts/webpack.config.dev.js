@@ -64,7 +64,7 @@ module.exports = Object.assign({}, webpackBaseConfig, {
       }
     }),
     new webpack.DefinePlugin({
-      APP_ENV: JSON.stringify(APP_PATH),
+      APP_PATH: JSON.stringify(APP_PATH),
       NODE_ENV: JSON.stringify(NODE_ENV),
       BUILD_NUMBER: JSON.stringify(BUILD_NUMBER || '0000')
     }),
