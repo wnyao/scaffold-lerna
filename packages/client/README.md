@@ -1,21 +1,21 @@
 # @packages/client
 
-Opinionated react application setup, Feel free to reconfigure to your needs.
+Opinionated react application setup.
 
 ### Structure
 ```bash
 ./src
 ├── App.tsx
-├── components # local coponents
-├── index.ejs # index html
+├── components # local components
+├── index.ejs # index 
 ├── index.tsx
-├── pages # where to store client pages
-├── tests # jest test folder
+├── pages # client pages
+├── tests # test files
 └── types # Global types
 ```
 
 ### Tools
 
 ```bash
-React, React Router, Styled Components, TypeScript, i18n, Axios
+React, React Router, Styled Components, TypeScript, i18n, Axios, Jest
 ```

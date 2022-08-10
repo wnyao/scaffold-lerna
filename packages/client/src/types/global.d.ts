@@ -7,9 +7,6 @@ declare module '*.svg';
 declare module '*.png';
 
 declare type BooleanType = 'true' | 'false';
-
 declare type PickByType<T, P> = Pick<T, { [K in keyof T]: T[K] extends P ? K : never }[keyof T]>;
-
 declare type PropertyType<T, K extends keyof T> = Pick<T, K>[K];
-
 declare type Styles = Record<string, React.CSSProperties>;

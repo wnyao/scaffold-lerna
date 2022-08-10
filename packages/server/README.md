@@ -1,6 +1,6 @@
 # @packages/server
 
-Opinionated restful api server setup, Open to configure to your needs.
+Opinionated restful api server setup.
 
 ### Structure
 ```bash
@@ -23,7 +23,7 @@ Opinionated restful api server setup, Open to configure to your needs.
 ### Tools
 
 ```bash
-Typscripts, ExpressJs, winston
+Typscripts, ExpressJs, Winston, Jest
 ```
 
 ### Sample API

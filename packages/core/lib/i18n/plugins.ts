@@ -10,6 +10,7 @@ export const resolveMultipleTranslation: PostProcessorModule = {
     if (value.includes(SEPARATOR)) {
       return value.split(SEPARATOR)[1];
     }
+
     return value;
   }
 };
